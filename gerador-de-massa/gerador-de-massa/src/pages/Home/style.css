@@ -1,0 +1,108 @@
+/* Layout principal com fundo mais escuro */
+body {
+  background-color: #1e1e1e;
+  color: #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Formulário */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+  width: 100%;
+  max-width: 700px;
+  background: #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Grid para inputs ficarem lado a lado */
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #3a3a3a;
+  color: #fff;
+}
+
+/* Grupo de checkboxes */
+.checkbox-group {
+  margin-top: 10px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+/* Botão */
+.btn-criar {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+.btn-criar:hover {
+  background-color: #0056b3;
+}
+
+/* Lista de alunos */
+.alunos-container {
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  background: #2a2a2a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.aluno-card {
+  background: #3a3a3a;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  text-align: left;
+}
